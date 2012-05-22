@@ -21,7 +21,7 @@ require 'pp'
 require 'rubygems'
 require 'securerandom'
 require 'digest'
-require './lib/PubnubCrypto.rb'
+require 'pubnub_ruby/pubnub_crypto'
 
 class Pubnub
     MAX_RETRIES = 3

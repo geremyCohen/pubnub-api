@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{pubnub-ruby}
+  s.name = %q{pubnub_ruby}
   s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -20,7 +20,8 @@ Gem::Specification.new do |s|
     "examples/publish-example.rb",
     "examples/subscribe-example.rb",
     "lib/pubnub-ruby.rb",
-    "lib/pubnub.rb",
+    "lib/pubnub_ruby/pubnub.rb",
+    "lib/pubnub_ruby/pubnub_crypto.rb",
     "tests/unit-test.rb"
   ]
   s.homepage = %q{http://github.com/pubnub/pubnub-api}
