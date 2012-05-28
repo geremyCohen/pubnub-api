@@ -11,7 +11,7 @@
 
 ##including required libraries
 require 'rubygems'   
-require './lib/pubnub.rb' 
+require 'pubnub_ruby/pubnub'
 
 ##declaring publish_key, subscribe_key, secret_key, cipher_key, message, ssl_on
           publish_key   = ARGV[0] || 'demo'
@@ -47,7 +47,7 @@ require './lib/pubnub.rb'
 ## ---------------------------------------------------------------------------
 ## PUBLISH
 ## ---------------------------------------------------------------------------
-          first_message  = 'Hi. (顶顅Ȓ)'
+          first_message  = 'Hi. World!'
           pubish_success = pubnub.publish({'channel' => 'HelloWorld' ,'message' => message})
           test( pubish_success[0] == 1, 'Publish First Message Success' )
 
