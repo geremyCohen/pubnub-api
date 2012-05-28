@@ -1,6 +1,6 @@
 ##including required libraries
 require 'rubygems'
-require './lib/pubnub.rb'
+require 'pubnub_ruby/pubnub'
 require 'securerandom'
 
 puts('Creating UUID String')

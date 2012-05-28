@@ -1,6 +1,6 @@
 ##including required libraries
 require 'rubygems'
-require './lib/pubnub.rb'
+require 'pubnub_ruby/pubnub'
 
 ##declaring publish_key, subscribe_key, secret_key, cipher_key
 publish_key   = 'demo'

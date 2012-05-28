@@ -1,5 +1,5 @@
 ##including required libraries   
-require './lib/pubnub.rb'
+require 'pubnub_ruby/pubnub'
 require 'json'
 
 ##declaring publish_key, subscribe_key, secret_key, cipher_key, message
